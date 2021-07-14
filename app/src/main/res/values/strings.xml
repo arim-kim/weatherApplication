@@ -1,0 +1,21 @@
+<resources>
+    <string name="app_name">weatherApplication</string>
+    <string name="send_message">메세지 보내기</string>
+    <string name="finedust_title">미세먼지 농도</string>
+    <string name="finedust_level">미세먼지 수치</string>
+    <string name="date">날짜</string>
+    <string name="send">send</string>
+    <string name="Led_title">LED </string>
+    <string name="setting_button_text">setting</string>
+    <string name="sending_message">보낼 메세지</string>
+    <string name="message">받은 메세지</string>
+    <string name="ip_adress_text">127.0.0.1</string>
+    <string name="port_number_text">22</string>
+    <string name="setting">설정</string>
+    <string name="OnorOff">센서 상태</string>
+    <string name="On">On</string>
+    <string name="Off">Off</string>
+    <string name="pm2.5">PM2.5</string>
+    <string name="pm10">PM10</string>
+
+</resources>

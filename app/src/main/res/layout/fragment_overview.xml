@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginBottom="30dp">
+
+        <TextView
+            android:id="@+id/sensor_setting_text"
+            android:layout_marginRight="10dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/OnorOff"/>
+
+        <TextView
+            android:id="@+id/sensor_setting"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="30dp"
+            android:text="@string/On"/>
+
+    </LinearLayout>
+
+
+    <TextView
+        android:id="@+id/date"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="yyyy년 M월 d일 H시 m분 : E요일"/>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/pm2.5_text"
+            android:layout_width="wrap_content"
+            android:layout_marginRight="50dp"
+            android:layout_height="wrap_content"
+            android:textSize="30sp"
+            android:text="@string/pm2.5"/>
+
+        <TextView
+            android:id="@+id/pm10_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="30sp"
+            android:text="@string/pm10"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/pm2.5_level"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="100"
+            android:layout_marginRight="30dp"
+            android:textColor="@color/black"
+            android:textSize="60sp"/>
+
+        <TextView
+            android:id="@+id/pm10_level"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="100"
+            android:textColor="@color/black"
+            android:textSize="60sp" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_marginTop="100dp"
+        android:layout_marginBottom="30dp"
+        >
+
+        <TextView
+            android:id="@+id/LED_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="@string/Led_title"
+            android:textSize="30sp" />
+
+        <SeekBar
+            android:id="@+id/LED_Setter"
+            android:layout_width="350dp"
+            android:layout_height="wrap_content"
+            android:max="100"/>
+
+
+    </LinearLayout>
+
+
+    <Button
+        android:id="@+id/Go_configButton"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom|center"
+        android:text="@string/setting_button_text" />
+
+
+</LinearLayout>
